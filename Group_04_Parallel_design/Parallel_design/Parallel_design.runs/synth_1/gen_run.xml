@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1702621310">
+  <File Type="PA-TCL" Name="top_module.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_module_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top_module.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top_module.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/block.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/new/block.v"/>
+        <Attr Name="ImportTime" Val="1702029549"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_feeder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/new/data_feeder.v"/>
+        <Attr Name="ImportTime" Val="1702080618"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/systolic_array.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/new/systolic_array.v"/>
+        <Attr Name="ImportTime" Val="1702043472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_extractor_mat_A.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/new/data_extractor_mat_A.sv"/>
+        <Attr Name="ImportTime" Val="1702075538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_extractor_mat_B.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/new/data_extractor_mat_B.sv"/>
+        <Attr Name="ImportTime" Val="1702075849"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/new/top_module.v"/>
+        <Attr Name="ImportTime" Val="1702039788"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_2/design_2.bd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../brute_force_method/brute_force_method.srcs/sources_1/bd/design_2/design_2.bd"/>
+        <Attr Name="ImportTime" Val="1702012440"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../bram_test.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../bram.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Fixed_8x8_15_12_finalized_golden_test/Fixed_8x8_15_12_finalized/Fixed_8x8/bram.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_module"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+</GenRun>

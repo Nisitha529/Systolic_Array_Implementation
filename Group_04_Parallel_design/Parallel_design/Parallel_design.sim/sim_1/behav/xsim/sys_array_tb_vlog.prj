@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../adding control.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../adding control.srcs/sources_1/new/block.v" \
+"../../../../adding control.srcs/sources_1/new/data_feeder.v" \
+"../../../../adding control.srcs/sources_1/new/systolic_array.v" \
+"../../../../adding control.srcs/sources_1/new/top.v" \
+"../../../../adding control.srcs/sources_1/new/top_module_new.v" \
+
+sv xil_defaultlib  \
+"../../../../adding control.srcs/sources_1/new/data_extractor_mat_A.sv" \
+"../../../../adding control.srcs/sources_1/new/data_extractor_mat_B.sv" \
+
+verilog xil_defaultlib  \
+"../../../../adding control.srcs/sim_1/imports/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

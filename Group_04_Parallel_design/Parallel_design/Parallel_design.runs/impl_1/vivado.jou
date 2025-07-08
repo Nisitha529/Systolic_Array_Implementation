@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Dec 15 11:55:04 2023
+# Process ID: 22956
+# Current directory: D:/MOODLE/SEMESTER 7/EN4020_Advanced_Digital_Systems/SoC_Project/Combined_setup/Fixed_8x8/Fixed_4X4_project/Fixed_4X4/Fixed_4X4.runs/impl_1
+# Command line: vivado.exe -log top_module.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_module.tcl -notrace
+# Log file: D:/MOODLE/SEMESTER 7/EN4020_Advanced_Digital_Systems/SoC_Project/Combined_setup/Fixed_8x8/Fixed_4X4_project/Fixed_4X4/Fixed_4X4.runs/impl_1/top_module.vdi
+# Journal file: D:/MOODLE/SEMESTER 7/EN4020_Advanced_Digital_Systems/SoC_Project/Combined_setup/Fixed_8x8/Fixed_4X4_project/Fixed_4X4/Fixed_4X4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace
